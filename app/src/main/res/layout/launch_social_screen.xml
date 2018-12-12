@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/instagramButton"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:text="INSTAGRAM"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/facebookButton" />
+
+    <Button
+        android:id="@+id/twitterButton"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:text="TWITTER"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/instagramButton" />
+
+    <Button
+        android:id="@+id/snapchatButton"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:text="SNAPCHAT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/twitterButton" />
+
+    <Button
+        android:id="@+id/shareButton"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:text="SHARE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/snapchatButton" />
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:text="HOME"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/facebookButton"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="FACEBOOK"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
